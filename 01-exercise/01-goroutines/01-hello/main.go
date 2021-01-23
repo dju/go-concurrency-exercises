@@ -28,7 +28,7 @@ func main() {
 	fv := fun
 	go fv("Go routine 03")
 	// wait for goroutines to end
-	fmt.Println("waiting for goroutines to complete..")
+	fmt.Println("waiting for goroutines to complete...")
 	time.Sleep(3 * time.Second)
 	fmt.Println("done..")
 }
